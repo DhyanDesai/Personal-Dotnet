@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            EqualOrNot eq1 = new EqualOrNot();
+            eq1.Equal();
+            SignCheck s1 = new SignCheck();
+            s1.sign();
+            WeekDay wd1 = new WeekDay();
+            wd1.weekday();
         }
     }
 }

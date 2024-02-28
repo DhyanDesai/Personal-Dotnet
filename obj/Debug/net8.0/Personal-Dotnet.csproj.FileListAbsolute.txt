@@ -1,0 +1,15 @@
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\bin\Debug\net8.0\Personal-Dotnet.exe
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\bin\Debug\net8.0\Personal-Dotnet.deps.json
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\bin\Debug\net8.0\Personal-Dotnet.runtimeconfig.json
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\bin\Debug\net8.0\Personal-Dotnet.dll
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\bin\Debug\net8.0\Personal-Dotnet.pdb
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\obj\Debug\net8.0\Personal-Dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\obj\Debug\net8.0\Personal-Dotnet.AssemblyInfoInputs.cache
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\obj\Debug\net8.0\Personal-Dotnet.AssemblyInfo.cs
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\obj\Debug\net8.0\Personal-Dotnet.csproj.CoreCompileInputs.cache
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\obj\Debug\net8.0\Personal-Dotnet.sourcelink.json
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\obj\Debug\net8.0\Personal-Dotnet.dll
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\obj\Debug\net8.0\refint\Personal-Dotnet.dll
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\obj\Debug\net8.0\Personal-Dotnet.pdb
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\obj\Debug\net8.0\Personal-Dotnet.genruntimeconfig.cache
+C:\Users\dhyan.desai\Desktop\Personal Git\Personal-Dotnet\obj\Debug\net8.0\ref\Personal-Dotnet.dll
