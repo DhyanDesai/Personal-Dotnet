@@ -13,20 +13,32 @@
             // WeekDay wd1 = new WeekDay();
             // wd1.weekday();
 
-            SumOfDigits sd = new SumOfDigits();
-            sd.sumofdigits();
+            // SumOfDigits sd = new SumOfDigits();
+            // sd.sumofdigits();
 
-            Fibonacci f1 = new Fibonacci();
-            f1.fibonacci();
+            // Fibonacci f1 = new Fibonacci();
+            // f1.fibonacci();
 
-            Prime p1 = new Prime();
-            p1.prime();
+            // Prime p1 = new Prime();
+            // p1.prime();
 
-            Factorial fact1 = new Factorial();
-            fact1.factorial();
+            // Factorial fact1 = new Factorial();
+            // fact1.factorial();
 
-            Armstrong arm1 = new Armstrong();
-            arm1.armstrong();
+            // Armstrong arm1 = new Armstrong();
+            // arm1.armstrong();
+
+            RevOrder rev1 = new RevOrder();
+            rev1.revchar();
+
+            Pattern pat1 = new Pattern();
+            pat1.printPattern();
+
+            UserLogin ulog1 = new UserLogin();
+            ulog1.userAuth();
+
+            Marks m1 = new Marks();
+            m1.markCal();
         }
     }
 }

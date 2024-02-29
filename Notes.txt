@@ -4,3 +4,5 @@ initial comsole commit done.
 Tasks folder done.
 Tasks folder committed to Repo.
 Tasks2202 folder done.
+Tasks2202 committed to Repo.
+Tasks2602 folder done.
