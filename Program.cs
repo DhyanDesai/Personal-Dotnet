@@ -28,17 +28,23 @@
             // Armstrong arm1 = new Armstrong();
             // arm1.armstrong();
 
-            RevOrder rev1 = new RevOrder();
-            rev1.revchar();
+            // RevOrder rev1 = new RevOrder();
+            // rev1.revchar();
 
-            Pattern pat1 = new Pattern();
-            pat1.printPattern();
+            // Pattern pat1 = new Pattern();
+            // pat1.printPattern();
 
-            UserLogin ulog1 = new UserLogin();
-            ulog1.userAuth();
+            // UserLogin ulog1 = new UserLogin();
+            // ulog1.userAuth();
 
-            Marks m1 = new Marks();
-            m1.markCal();
+            // Marks m1 = new Marks();
+            // m1.markCal();
+
+            // test1 t1 = new test1();
+            // t1.test();
+
+            // EnumEx en1 = new EnumEx();
+            // en1.EnumExampele();
         }
     }
 }
