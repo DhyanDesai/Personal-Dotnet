@@ -8,3 +8,6 @@ Tasks2202 committed to Repo.
 Tasks2602 folder done.
 Tasks2602 committed to Repo.
 Practice folder done.
+Practice committed.
+Switch case added to the program file.
+Added Try catch to program.cs file and other minor changes.

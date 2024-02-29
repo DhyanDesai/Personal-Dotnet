@@ -18,22 +18,25 @@ namespace Personal_Dotnet
 
             int totalMarks = studMarkMathInput + studMarkPhyInput + studMarkChemInput;
             Console.WriteLine("Total marks of student named {0},roll no {1} are: {2}",studNameInput,studRollInput,totalMarks);
-
-            double percentageMarks = (double)totalMarks / 3;
-            Console.WriteLine("Percentage of student named {0},roll no {1} are: {2}%",studNameInput,studRollInput,percentageMarks);
-
-            if(percentageMarks >= 90){
-                Console.WriteLine("Student named {0},roll no {1} has passed the exam in first division",studNameInput,studRollInput);
-            }
-            else if(percentageMarks >= 75 && percentageMarks <90){
-                Console.WriteLine("Student named {0},roll no {1} has passed the exam in second division",studNameInput,studRollInput);
-            }
-            else if(percentageMarks >= 50 && percentageMarks <75){
-                Console.WriteLine("Student named {0},roll no {1} has passed the exam in third division",studNameInput,studRollInput);
-            }
-            else if(percentageMarks >= 33 && percentageMarks <50){
-                Console.WriteLine("Student named {0},roll no {1} has passed the exam in fourth division",studNameInput,studRollInput);
-            }else{
+            if(studMarkMathInput >= 33 && studMarkChemInput >= 33 && studMarkPhyInput >=33)
+            {
+                double percentageMarks = (double)totalMarks / 3;
+                Console.WriteLine("Percentage of student named {0},roll no {1} are: {2}%",studNameInput,studRollInput,percentageMarks);
+                if(percentageMarks >= 90){
+                    Console.WriteLine("Student named {0},roll no {1} has passed the exam in first division",studNameInput,studRollInput);
+                }
+                else if(percentageMarks >= 75 && percentageMarks <90){
+                    Console.WriteLine("Student named {0},roll no {1} has passed the exam in second division",studNameInput,studRollInput);
+                }
+                else if(percentageMarks >= 50 && percentageMarks <75){
+                    Console.WriteLine("Student named {0},roll no {1} has passed the exam in third division",studNameInput,studRollInput);
+                }
+                else if(percentageMarks >= 33 && percentageMarks <50){
+                    Console.WriteLine("Student named {0},roll no {1} has passed the exam in fourth division",studNameInput,studRollInput);
+                }else{
+                    Console.WriteLine("Student named {0},roll no {1} has failed the exam",studNameInput,studRollInput);
+                }
+            }else{                
                 Console.WriteLine("Student named {0},roll no {1} has failed the exam",studNameInput,studRollInput);
             }
         }

@@ -6,13 +6,20 @@ namespace Personal_Dotnet
 
 
             string inputStr = "";
-            for (int i = 0;i<3;i++){
-                Console.WriteLine("Enter a character");
-                inputStr += Convert.ToChar(Console.ReadLine());
+            try
+            {
+                for (int i = 0;i<3;i++){
+                    Console.WriteLine("Enter a character");
+                    inputStr += Convert.ToChar(Console.ReadLine());
+                }
+                for(int i=inputStr.Length-1;i >=0;i--){
+                    Console.Write(inputStr[i]+" ");
+                } 
             }
-            for(int i=inputStr.Length-1;i >=0;i--){
-                Console.Write(inputStr[i]+" ");
-            } 
+            catch (NullReferenceException fe)
+            {
+               throw new Exception(fe.Message);
+            }
         }
     }
 }
