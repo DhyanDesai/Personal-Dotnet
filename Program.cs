@@ -1,12 +1,10 @@
-﻿using System.Diagnostics;
+﻿namespace DotNetInterns;
 
-namespace Personal_Dotnet
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            int a;
+         int a;
             System.Console.WriteLine("List of tasks");
             System.Console.WriteLine("1.Equal or not");
             System.Console.WriteLine("2.Sign check");
@@ -22,7 +20,13 @@ namespace Personal_Dotnet
             System.Console.WriteLine("12.Marks");
             System.Console.WriteLine("13.Structure Example");
             System.Console.WriteLine("14.Enum Example");
-            System.Console.WriteLine("15.Exit");
+            System.Console.WriteLine("15.ArrayList example");
+            System.Console.WriteLine("16.Excetion Handeling");
+            System.Console.WriteLine("17.Hashtable");
+            System.Console.WriteLine("18.lambda expression example");
+            System.Console.WriteLine("19.User defined exception example");
+            System.Console.WriteLine("20.Event example");
+            System.Console.WriteLine("21.Exit");
             System.Console.WriteLine("-------------------------------------");
             System.Console.WriteLine("Enter a task number to perform");
             a = Convert.ToInt32(Console.ReadLine());
@@ -88,6 +92,44 @@ namespace Personal_Dotnet
                     en1.EnumExampele();
                     break;
                     case 15:
+                    Arraylist al2 = new Arraylist();
+                    al2.arraylistex();
+                    break;
+                    case 16:
+                    ExceptionHandeling e1 = new ExceptionHandeling();
+                    e1.DivisionNumbers();
+                    e1.div(20,0);
+                    break;
+                    case 17:
+                    Hashtableex htex1 = new Hashtableex();
+                    htex1.htex();
+                    break;
+                    case 18:
+                    Lambda lamb = new Lambda();
+                    lamb.lambda();
+                    break;
+                    case 19:
+                    Tempr temp1 = new Tempr();
+                    try
+                    {
+                        temp1.showTemp();
+                    }
+                    catch (TempIsZeroException e)
+                    {
+                        System.Console.WriteLine("TempIsZeroException: {0}",e.Message);
+                    }
+                    break;
+                    case 20:
+                    Worker work=new Worker();
+                    work.WorkPerformed+=(sender,e)=>{
+                        System.Console.WriteLine($"{e.Hour}'s {e.WorkType} complete");
+                    };
+                    work.WorkComplete+=(sender,e)=>{
+                        System.Console.WriteLine($"work fully completed");
+                    };
+                    work.DoWork(5,"intern ka kam");
+                    break;
+                    case 21:
                     break;
                     default:
                     System.Console.WriteLine("Looks like you have entered a wrong number!!");
@@ -102,6 +144,5 @@ namespace Personal_Dotnet
             {
                 System.Console.WriteLine("End of the program.");
             }
-        }
     }
 }

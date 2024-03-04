@@ -1,4 +1,4 @@
-namespace Personal_Dotnet
+namespace DotNetInterns
 {
     class RevOrder{
         public void revchar(){

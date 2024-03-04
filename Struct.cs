@@ -1,4 +1,4 @@
-namespace Personal_Dotnet
+namespace DotNetInterns
 {   
     struct Data{
         public int rollno;

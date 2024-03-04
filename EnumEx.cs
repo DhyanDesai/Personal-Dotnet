@@ -1,4 +1,4 @@
-namespace Personal_Dotnet
+namespace DotNetInterns
 {   
     enum Weeks{
         Monday=1,
