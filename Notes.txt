@@ -12,6 +12,18 @@ Practice committed.
 Switch case added to the program file.
 Added Try catch to program.cs file and other minor changes.
 
+
 added a new branch
 
 Switched to a new branch.
+
+1
+1
+1
+11
+1
+1
+1
+1
+1
+
